@@ -1,0 +1,24 @@
+    @import '../styles/variables.scss';
+    *,
+    *::before,
+    *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+        font-family: 'Roboto Mono', 'Consolas', 'Menlo', monospace;
+    }
+    
+    html {
+        box-sizing: border-box;
+        overflow-x: hidden;
+        font-family: "Noto Sans TC", sans-serif;
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
+    
+    .outter_container {
+        margin: 20px 0;
+        color: $primary;
+    }
